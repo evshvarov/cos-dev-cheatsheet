@@ -10,7 +10,8 @@ do $System.OBJ.ImportDir("c:\path\to\project","*.xml;*.cls;*.mac;*.int;*.inc;*.d
 # export classes from Package to one file in InterSystems/mgr/namespace
 ```
 do $System.OBJ.Export("Package.*.CLS","release.xml")
-
+```
 
 # Delete all instances in class
 `w ##class(HR.Person).%DeleteExtent()`
+
