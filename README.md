@@ -11,5 +11,6 @@ do $System.OBJ.ImportDir("c:\path\to\project","*.xml;*.cls;*.mac;*.int;*.inc;*.d
 ```
 do $System.OBJ.Export("Package.*.CLS","release.xml")
 
+
 # Delete all instances in class
-'w ##class(HR.Person).%DeleteExtent()'
+`w ##class(HR.Person).%DeleteExtent()`
